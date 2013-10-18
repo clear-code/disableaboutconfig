@@ -1,0 +1,11 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+content disableaboutconfig content/
+
+style chrome://messenger/content/preferences/preferences.xul chrome://disableaboutconfig/content/disableaboutconfig.css
+
+component {5c2d6220-37a0-11e3-aa6e-0800200c9a66} components/ConfigEditorBlocker.js
+contract @clear-code.com/disableaboutconfig/configeditorblocker;1 {5c2d6220-37a0-11e3-aa6e-0800200c9a66}
+category content-policy DisableAboutConfigConfigEditorBlocker @clear-code.com/disableaboutconfig/configeditorblocker;1
