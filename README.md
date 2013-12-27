@@ -1,4 +1,4 @@
 disableaboutconfig
 ==================
 
-Disable about:config feature of Firefox.
+Disable about:config feature of Firefox and Thunderbird.
