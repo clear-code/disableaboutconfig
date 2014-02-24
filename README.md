@@ -1,4 +1,6 @@
 disableaboutconfig
 ==================
 
-Disable about:config feature of Firefox and Thunderbird.
+This addon disables about:config aka Config Editor feature.
+
+This is mainly designed for corporate-use.
