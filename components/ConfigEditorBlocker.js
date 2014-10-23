@@ -56,6 +56,7 @@ DisableAboutConfigConfigEditorBlocker.prototype = {
           return aContentLocation.spec.indexOf(aURI) == 0;
         })) {
       this.processBlockedContext(aContext);
+      Components.utils.reportError(new Error(ID + ': ' + aContentLocation.spec + ' is blocked!'));
       return this.REJECT_REQUEST;
     }
 
