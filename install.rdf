@@ -6,6 +6,7 @@
                    em:id="disableaboutconfig@clear-code.com"
                    em:name="Disable about:config"
                    em:version="1.0"
+                   em:type="2"
                    em:description="Disable about:config."
                    em:creator="ClearCode Inc."
                    em:homepageURL="http://www.clear-code.com/"
