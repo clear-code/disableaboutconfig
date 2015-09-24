@@ -5,7 +5,7 @@
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="disableaboutconfig@clear-code.com"
                    em:name="Disable about:config"
-                   em:version="1.0"
+                   em:version="1.1"
                    em:type="2"
                    em:description="Disable about:config."
                    em:creator="ClearCode Inc."
