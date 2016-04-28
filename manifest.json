@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Disable about:config",
+  "version": "2.0a1",
+  "description": "Disable about:config.",
+  "applications": {
+    "gecko": {
+      "id": "disableaboutconfig@clear-code.com",
+      "strict_min_version": "48.0a1"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background/blocker.js"
+    ]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "about:config"
+  ]
+}
