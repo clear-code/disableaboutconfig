@@ -19,7 +19,7 @@
           }
         }
       `;
-      let sheet = Services.io.newURI(`data:text/css,encodeURIComponent(${style})`);
+      let sheet = Services.io.newURI(`data:text/css,${encodeURIComponent(style)}`);
       if (!SSS.sheetRegistered(sheet, SSS.USER_SHEET))
         SSS.loadAndRegisterSheet(sheet, SSS.USER_SHEET);
     }
